@@ -384,28 +384,25 @@
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>1</item>
-        <item>4</item>
-        <item>12</item>
-        <item>20</item>
-        <item>28</item>
-        <item>47</item>
-        <item>63</item>
-        <item>86</item>
-        <item>150</item>
-        <item>160</item>
-        <item>220</item>
-        <item>270</item>
-        <item>360</item>
-        <item>420</item>
-        <item>510</item>
-        <item>620</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3100</item>
-        <item>5000</item>
-        <item>8000</item>
-        <item>12000</item>
+	<item>1</item>
+	<item>2</item>
+	<item>3</item>
+	<item>4</item>	
+	<item>8</item>
+	<item>12</item>
+	<item>20</item>
+	<item>33</item> 
+	<item>55</item>
+	<item>90</item>
+	<item>148</item>
+	<item>245</item>
+	<item>403</item>
+	<item>665</item>
+	<item>1097</item> 
+	<item>1808</item>
+	<item>2981</item>
+	<item>5000</item>
+	<item>10000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
@@ -420,29 +417,26 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0487</item>
-        <item>4.8394</item>
-        <item>17.2619</item>
-        <item>39.2619</item>
-        <item>50.671</item>
-        <item>72.95</item>
-        <item>80.46</item>
-        <item>84.38</item>
-        <item>89.51</item>
-        <item>100.34</item>
-        <item>102.21</item>
-        <item>109.48</item>
-        <item>114.19</item>
-        <item>123.86</item>
-        <item>129.18</item>
-        <item>138.07</item>
-        <item>145.62</item>
-        <item>168.84</item>
-        <item>234.9</item>
-        <item>291</item>
-        <item>370</item>
-        <item>492</item>
-        <item>580</item>
+	<item>5.139055</item>
+	<item>9.962019</item>
+	<item>18.34823</item>
+	<item>21.550682</item>
+	<item>24.016779</item> 
+	<item>30.621622</item>
+	<item>35.094864</item>
+	<item>41.224964</item>
+	<item>47.67607</item>
+	<item>55.730022</item> 
+	<item>66.241264</item>
+	<item>79.67614</item>
+	<item>98.04727</item>
+	<item>125.1222</item>
+	<item>161.68752</item> 
+	<item>208.48856</item>
+	<item>264.82214</item>
+	<item>327.89743</item>
+	<item>401.16766</item>
+	<item>494.08463</item>
     </array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -452,76 +446,8 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>2.0482</item>
-        <item>2.543</item>
-        <item>3.0253</item>
-        <item>3.5077</item>
-        <item>4.0824</item>
-        <item>4.4748</item>
-        <item>5.08</item>
-        <item>6.4233</item>
-        <item>8.0848</item>
-        <item>11.6607</item>
-        <item>13.2347</item>
-        <item>15.0676</item>
-        <item>16.8302</item>
-        <item>18.4261</item>
-        <item>20.3103</item>
-        <item>21.9042</item>
-        <item>23.5456</item>
-        <item>25.2137</item>
-        <item>27.1769</item>
-        <item>28.9571</item>
-        <item>30.5244</item>
-        <item>32.3535</item>
-        <item>34.0867</item>
-        <item>42.366</item>
-        <item>51.1309</item>
-        <item>59.52</item>
-        <item>67.744</item>
-        <item>75.9738</item>
-        <item>84.6332</item>
-        <item>94.1525</item>
-        <item>102.2207</item>
-        <item>110.4878</item>
-        <item>117.0405</item>
-        <item>124.3733</item>
-        <item>130.9928</item>
-        <item>140.4247</item>
-        <item>149.3156</item>
-        <item>157.1995</item>
-        <item>165.3651</item>
-        <item>173.2726</item>
-        <item>181.4272</item>
-        <item>189.1402</item>
-        <item>197.5334</item>
-        <item>205.6301</item>
-        <item>213.9381</item>
-        <item>222.2769</item>
-        <item>230.0891</item>
-        <item>238.6084</item>
-        <item>246.5399</item>
-        <item>255.6544</item>
-        <item>263.6221</item>
-        <item>271.9324</item>
-        <item>279.1449</item>
-        <item>288.5736</item>
-        <item>297.6628</item>
-        <item>306.1899</item>
-        <item>314.4511</item>
-        <item>322.1404</item>
-        <item>330.969</item>
-        <item>338.2251</item>
-        <item>346.2251</item>
-        <item>354.567</item>
-        <item>370.799</item>
-        <item>413.1738</item>
-        <item>415.6397</item>
-        <item>417.264</item>
-        <item>419.264</item>
-        <item>421.264</item>
-        <item>424.646</item>
-        <item>427.6287</item>
+        <item>2.0</item>
+        <item>450.0</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -529,74 +455,6 @@
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
         <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>30</item>
-        <item>35</item>
-        <item>40</item>
-        <item>45</item>
-        <item>50</item>
-        <item>55</item>
-        <item>60</item>
-        <item>70</item>
-        <item>100</item>
-        <item>105</item>
-        <item>110</item>
-        <item>115</item>
-        <item>120</item>
-        <item>125</item>
-        <item>130</item>
-        <item>135</item>
-        <item>140</item>
-        <item>145</item>
-        <item>150</item>
-        <item>155</item>
-        <item>160</item>
-        <item>165</item>
-        <item>170</item>
-        <item>175</item>
-        <item>180</item>
-        <item>185</item>
-        <item>190</item>
-        <item>195</item>
-        <item>200</item>
-        <item>205</item>
-        <item>210</item>
-        <item>215</item>
-        <item>220</item>
-        <item>225</item>
-        <item>230</item>
-        <item>235</item>
-        <item>240</item>
-        <item>245</item>
-        <item>250</item>
-        <item>251</item>
-        <item>252</item>
-        <item>253</item>
-        <item>254</item>
         <item>255</item>
     </integer-array>
 
@@ -730,6 +588,10 @@
         <item>308203e5308202cda003020102020900ca7f2ef3e2f1842e300d06092a864886f70d0101050500308188310b300906035504061302434e3112301006035504080c094775616e67646f6e673111300f06035504070c085368656e7a68656e3110300e060355040a0c074f6e65506c7573310b3009060355040b0c0253573110300e06035504030c074f6e65506c75733121301f06092a864886f70d01090116126f6e65706c7573406f6e65706c75732e636e301e170d3135303530373037323332335a170d3432303932323037323332335a308188310b300906035504061302434e3112301006035504080c094775616e67646f6e673111300f06035504070c085368656e7a68656e3110300e060355040a0c074f6e65506c7573310b3009060355040b0c0253573110300e06035504030c074f6e65506c75733121301f06092a864886f70d01090116126f6e65706c7573406f6e65706c75732e636e30820122300d06092a864886f70d01010105000382010f003082010a0282010100ce24d23c2044f698476fe8f79388fa901520142424b58d10a5656a27bf1fa5ca4e381d8bc5773f29271e892bf25b06357c0cab9a06a93beb3c9eced9928c938f2829fbc63bc045dcfac0660f747dfe325ed5a8c7b785ccca472bc51afa823c1c0d8dd088aa8ef3ead6053f0020fee55b6c450b0c90f9a19f8f60808d1e0eb24309216f39bccb58991c4c1656aed444a5a0652e84587ae44e7c60101190d8d0d92a37407fc6da5432a8f20fe6414cf0ce2257edf76a7d2eb34d0d31e183867b552030beaf8e6e7ade37668d87c2bd52b8c29d3d30437058a31003f3dbbe8943db602feb71c7af51388234a0ea713a9fdd17ebc89463ff1065ee970edd3969d4110203010001a350304e301d0603551d0e04160414e24ca18e47f2c07476f9d37ce0d85a9f2fdf4456301f0603551d23041830168014e24ca18e47f2c07476f9d37ce0d85a9f2fdf4456300c0603551d13040530030101ff300d06092a864886f70d01010505000382010100a682431bd6bd9d99dc267686842fe3e2d6979798ec565314dcbede7b921ba78e210e9682dc72c07c09b0882b65df2a366007f3e4a594d0a85d04644b8e0f3e13cf16f2e764716625fe8dcf93e3936d496a86d0cc4c0aa2f7d46d904eec834c604dd1c5ad2fd1ad599d6ab3375f36382303685edca5078e931977679a4f4c8a532294fd7dbc0c55ffb33e3aa064b628b8083def2ad60ba0abf8a777d69e38fe18bc2e4c63e94d05c2081b947b7caf919f272157ba90ea83a306fd2941c1d6380cc55abf7983125d4d60ac1463bdbf9baf41a6fef117b37d03d086cf754f4f3ef3b5cb054f5d2f26115b221818c785b3de1be552bb1decdf4f3d373bdd5022d150</item>
     </string-array>
 
+    <!-- Maximum screen brightness setting allowed by the power manager.
+         The user is forbidden from setting the brightness above this level. -->
+    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+
     <!-- The default peak refresh rate for a given device. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
 
@@ -744,4 +606,8 @@
 
     <!-- Whether device supports in-display fingerprint when screen is turned off -->
     <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+
+    <!-- FOD Animations -->
+    <bool name="showFODAnimationPicker">true</bool>
+
 </resources>

@@ -1,20 +1,17 @@
 [
   {
-    "repository": "LineageOS/android_device_oneplus_common",
-    "target_path": "device/oneplus/common",
-    "branch" :"lineage-17.1",
-    "remote" :"github"
+    "repository": "device_oneplus_common",
+    "target_path": "device/oneplus/common"
   },
   {
     "repository": "kernel_oneplus_sm7250",
-    "target_path": "kernel/oneplus/sm7250",
-    "branch": "ten"
+    "target_path": "kernel/oneplus/sm7250"
   },
   {
     "repository": "vendor_oneplus_avicii",
     "target_path": "vendor/oneplus/avicii",
-    "branch": "ten",
-    "remote": "pixel-devices-bitbucket"
+    "remote": "gitlab-stag",
+    "branch": "sx"
   },
   {
     "repository": "kdrag0n/proton-clang",

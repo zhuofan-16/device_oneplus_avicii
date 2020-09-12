@@ -745,4 +745,6 @@
     <!-- FOD Animations -->
     <bool name="showFODAnimationPicker">true</bool>
 
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
 </resources>

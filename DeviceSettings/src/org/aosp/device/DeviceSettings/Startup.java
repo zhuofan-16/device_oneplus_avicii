@@ -37,8 +37,14 @@ public class Startup extends BroadcastReceiver {
         boolean enabled = false;
         TouchscreenGestureSettings.MainSettingsFragment.restoreTouchscreenGestureStates(context);
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_SRGB_SWITCH, false);
+        restore(SRGBModeSwitch.getFile(), enabled);
         enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DC_SWITCH, false);
         restore(DCModeSwitch.getFile(), enabled);
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_DCI_SWITCH, false);
+        restore(DCIModeSwitch.getFile(), enabled);
+        enabled = sharedPrefs.getBoolean(DeviceSettings.KEY_WIDE_SWITCH, false);
+        restore(WideModeSwitch.getFile(), enabled);
     }
 
     private void restore(String file, boolean enabled) {

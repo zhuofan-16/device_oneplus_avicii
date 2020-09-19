@@ -9,9 +9,7 @@
   },
   {
     "repository": "vendor_oneplus_avicii",
-    "target_path": "vendor/oneplus/avicii",
-    "remote": "gitlab-stag",
-    "branch": "sx"
+    "target_path": "vendor/oneplus/avicii"
   },
   {
     "repository": "kdrag0n/proton-clang",

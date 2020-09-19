@@ -16,4 +16,18 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Whether device has warp charging support -->
+    <bool name="config_hasWarpCharger">true</bool>
+
+    <!-- Whether device has Dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
+
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">true</bool>
+    <!-- Default setting for refresh rate
+  0 = Auto
+  1 = 60HZ
+  2 = 90Hz -->
+    <integer name="config_defaultVariableRefreshRateSetting">2</integer>
+
 </resources>

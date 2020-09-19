@@ -22,22 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # PixelExperience Properties
 TARGET_USES_AOSP_RECOVERY := true
 
-PRODUCT_NAME := stag_avicii
+PRODUCT_NAME := rr_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONEPLUS AC2001
+PRODUCT_MODEL := ONEPLUS AC2003
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusNord \
     PRODUCT_NAME=OnePlusNord \
-    PRIVATE_BUILD_DISC="Nord_IND-user 10 QKQ1.200412.002 2007312126 release-keys"
+    PRIVATE_BUILD_DISC="Nord-user 10 QKQ1.200412.002 2007312126 release-keys"
 
 BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_avicii.mk
+    $(LOCAL_DIR)/rr_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_avicii-user \
-    stag_avicii-userdebug \
-    stag_avicii-eng
+    rr_avicii-user \
+    rr_avicii-userdebug \
+    rr_avicii-eng
